@@ -1,0 +1,13 @@
+.home-icon {
+    position: relative;
+  
+    z-index: 100;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+
+  }
+  
+  .home-icon a {
+    text-decoration: none;
+  }

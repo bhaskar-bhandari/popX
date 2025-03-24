@@ -1,0 +1,62 @@
+
+
+   .container {
+    padding: 60px 20px;
+    background-color: #ffffff;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .container h1 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1d1d1d;
+    margin-bottom: 10px;
+  }
+  
+  .container p {
+    font-size: 14px;
+    color: #555555;
+    margin-bottom: 40px;
+    padding: 0 10px;
+    max-width: 300px;
+  }
+  
+  button.primary, button.secondary {
+    width: 100%;
+    max-width: 300px;
+    padding: 12px;
+    font-size: 14px;
+    border-radius: 8px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 12px;
+  }
+  
+  button.primary {
+    background-color: #9333ea; /* Purple */
+    color: white;
+  }
+  
+  button.secondary {
+    background-color: #e5d4f6; /* Light purple background */
+    color: #9333ea; /* Purple text */
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      padding: 40px 16px;
+    }
+  
+    button.primary, button.secondary {
+      font-size: 14px;
+    }
+  }
+  
